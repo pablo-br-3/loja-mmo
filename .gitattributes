@@ -1,0 +1,27 @@
+
+# =========================
+# Forçar linguagens corretas
+# =========================
+
+*.html linguist-language=HTML
+*.htm linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# =========================
+# Ignorar arquivos gerados
+# =========================
+
+*.min.js linguist-generated=true
+*.min.css linguist-generated=true
+
+dist/* linguist-generated=true
+build/* linguist-generated=true
+node_modules/* linguist-generated=true
+
+# =========================
+# Ignorar arquivos de config
+# =========================
+
+*.json linguist-detectable=false
+package-lock.json linguist-detectable=false
