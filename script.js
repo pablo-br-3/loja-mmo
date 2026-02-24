@@ -1,5 +1,6 @@
 (function(){
   const thead = document.getElementById("thead")
+  
 
 const trHead = document.createElement("tr")
 
@@ -14,9 +15,11 @@ for(let chave in categorias){
     const th = document.createElement("th")
     th.textContent = categorias[chave]
     trHead.appendChild(th)
+    
 }
 
 thead.appendChild(trHead)
+
     const itens = { 
      arcos: [
     {nome:"Arco do caçador",Enchant:3,nivel:85,preco:2000},
@@ -209,6 +212,31 @@ filtrarCategoria()
  atualizarOuro()
 
  document.getElementById("btn-comprar").addEventListener("click",()=>{
+    if(ouro >= itemSelecionado.preco){
+     somPorPreco(itemSelecionado.preco);
+    }
+    if(!itemSelecionado){
+    alert("selecione um item primeiro!")
+    return
+   }
+    if(ouro>=itemSelecionado.preco){
+    ouro-=itemSelecionado.preco;
+    atualizarOuro();
+  
+   }else{
+    alert("Ouro insuficiente!")
+     somErro();
+      ouro = 0
+       atualizarOuro();
+   }
+
+   const selected = document.querySelector(".selecionado")
+   selected.style.background = "lightyellow"
+   selected.style.color = "red"
+
+    
+ })
+ document.getElementById("btn-comprar2").addEventListener("click",()=>{
     if(ouro >= itemSelecionado.preco){
      somPorPreco(itemSelecionado.preco);
     }
