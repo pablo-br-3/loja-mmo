@@ -386,30 +386,30 @@ button:hover{
 
 .th th{
     position: fixed;
-    font-size: 0.9em;
+    font-size: 0.7em;
 
 }
 .th th:nth-of-type(1){
-    top: 2.5em;
+    top: 3.4em;
     background-color: var(--bg-panel);
-    padding-right: 7em;
+    padding-right: 10em;
    
 }
 .th th:nth-of-type(2){
-    top: 2.5em;
-    left: 16em;
+    top: 3.4em;
+    left: 21em;
     background-color: var(--bg-panel);
-     padding-right: 1em;
+     padding-right: 2em;
 }
 .th th:nth-of-type(3){
-    top: 2.5em;
-    left: 20.4em;
+    top: 3.4em;
+    left: 26.7em;
     background-color: var(--bg-panel);
-    padding-right: 1.5em;
+    padding-right: 3em;
 }
 .th th:nth-of-type(4){
-    top: 2.5em;
-    left: 24em;
+    top: 3.4em;
+    left: 31.5em;
   
     background-color: var(--bg-panel);
 }
