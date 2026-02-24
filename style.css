@@ -386,29 +386,31 @@ button:hover{
 
 .th th{
     position: fixed;
+    font-size: 0.9em;
 
 }
 .th th:nth-of-type(1){
     top: 2.5em;
     background-color: var(--bg-panel);
-    padding-right: 6.2em;
+    padding-right: 7em;
    
 }
 .th th:nth-of-type(2){
     top: 2.5em;
-    left: 14.2em;
+    left: 16em;
     background-color: var(--bg-panel);
      padding-right: 1em;
 }
 .th th:nth-of-type(3){
     top: 2.5em;
-    left: 18.4em;
+    left: 20.4em;
     background-color: var(--bg-panel);
-    padding-right: 1em;
+    padding-right: 1.5em;
 }
 .th th:nth-of-type(4){
     top: 2.5em;
-    left: 21.5em;
+    left: 24em;
+  
     background-color: var(--bg-panel);
 }
 
