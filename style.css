@@ -1,14 +1,14 @@
 :root{
-    --bg-main: #0f172a;        /* azul escuro profundo */
-    --bg-panel: #1e293b;       /* azul acinzentado */
-    --bg-header: #334155;      /* azul slate */
-    --bg-hover: #3b4a63;       /* azul médio hover */
-    --gold: #a39f20;           /* azul claro destaque */
-    --gold-dark: #0ea5e9;      /* azul vibrante seleção */
-    --text-main: #e2e8f0;      /* branco suave */
-    --text-muted: #94a3b8;     /* cinza azulado */
-    --danger: #ef4444;         /* vermelho moderno */
-    --success: #22c55e;        /* verde vivo */
+    --bg-main: #1a0f14;        /* vinho escuro profundo */
+    --bg-panel: #24141b;       /* vermelho queimado escuro */
+    --bg-header: #3a1f29;      /* vermelho escuro elegante */
+    --bg-hover: #4a2633;       /* vermelho médio hover */
+    --gold: #ffcc33;           /* dourado vivo */
+    --gold-dark: #ff9900;      /* dourado intenso */
+    --text-main: #f5e6e8;      /* branco levemente rosado */
+    --text-muted: #c9a9ad;     /* rosa acinzentado */
+    --danger: #ff3b3b;         /* vermelho forte */
+    --success: #4ade80;        /* verde claro vibrante */
     cursor: url(imagem-cursor.png), auto;
 }
 
@@ -403,13 +403,13 @@ button:hover{
 }
 .th th:nth-of-type(3){
     top: 3.4em;
-    left: 26.7em;
+    left: 26.5em;
     background-color: var(--bg-panel);
     padding-right: 3em;
 }
 .th th:nth-of-type(4){
     top: 3.4em;
-    left: 31em;
+    left: 30.7em;
   
     background-color: var(--bg-panel);
 }
